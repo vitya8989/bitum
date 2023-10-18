@@ -1,0 +1,68 @@
+.main_salavat {
+  margin-top: -30px;
+  border-radius: 30px 30px 0 0;
+  background: url('../img/main_salavat/bg.jpg') center / cover no-repeat;
+  box-shadow: 3px -1px 27px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
+
+  @media ($tablet) {
+    border-radius: 15px 15px 0 0;
+  }
+}
+.main_salavat__content {
+  min-height: 100vh;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+
+  @media ($tablet) {
+    padding: 60px 0 90px;
+    min-height: 0;
+    justify-content: center;
+  }
+}
+.main_salavat__body {
+  min-height: 575px;
+  max-width: 650px;
+  padding: 120px 94px 68px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: url('../img/main_salavat/text_bg.png') center / cover no-repeat;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
+  @media ($tablet3) {
+    min-height: 295px;
+    max-width: 335px;
+    padding: 30px 44px 14px;
+  }
+}
+.main_salavat__title {
+  color: #ffffff;
+
+  @media ($tablet3) {
+    font-size: 2.7rem;
+  }
+}
+.main_salavat__text {
+  margin-top: 25px;
+  color: #FFF;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media ($tablet3) {
+    margin-top: 16px;
+    font-size: 1.4rem;
+    line-height: 1.25;
+  }
+}
+.main_salavat__btn {
+  margin-top: 45px;
+
+  @media ($tablet3) {
+    margin-top: 26px;
+  }
+}

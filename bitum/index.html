@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Bitum</title>
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/inputmask.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="wrapper this--main">
+    <section class="main_slider">
+    <div class="main_slider__wrapper">
+        <div class="main_slider__pagination"></div>
+        <div class="main_slider__slider swiper-container js_main_slider">
+            <div class="main_slider__slider_wrapper swiper-wrapper">
+                <div class="main_slider__slider_slide swiper-slide">
+                    <div class="main_slider__slide_video">
+                        <video src="video/main_slider/video_1.mp4" muted autoplay loop></video>
+                    </div>
+                </div>
+                <div class="main_slider__slider_slide swiper-slide">
+                    <div class="main_slider__slide_video">
+                        <video src="video/main_slider/video_2.mp4" muted autoplay loop></video>
+                    </div>
+                </div>
+                <div class="main_slider__slider_slide swiper-slide">
+                    <div class="main_slider__slide_video">
+                        <video src="video/main_slider/video_3.mp4" muted autoplay loop></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_slider__content">
+            <h2 class="main_slider__title h2_title">Группа компаний</h2>
+            <div class="main_slider__logos">
+                <div class="main_slider__logo">
+                    <img src="img/main_slider/logo_1.png" alt="">
+                </div>
+                <div class="main_slider__logo">
+                    <img src="img/main_slider/logo_2.png" alt="">
+                </div>
+                <div class="main_slider__logo">
+                    <img src="img/main_slider/logo_3.png" alt="">
+                </div>
+            </div>
+            <button class="main_slider__arrow js_main_slider_arrow_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                    <path d="M24.2929 34.7071C24.6834 35.0976 25.3166 35.0976 25.7071 34.7071L32.0711 28.3431C32.4616 27.9526 32.4616 27.3195 32.0711 26.9289C31.6805 26.5384 31.0474 26.5384 30.6569 26.9289L25 32.5858L19.3431 26.9289C18.9526 26.5384 18.3195 26.5384 17.9289 26.9289C17.5384 27.3195 17.5384 27.9526 17.9289 28.3431L24.2929 34.7071ZM24 16L24 34L26 34L26 16L24 16Z" fill="white"/>
+                    <rect x="0.5" y="0.5" width="49" height="49" rx="24.5" stroke="white" stroke-opacity="0.5"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</section>
+    <header class="header">
+    <div class="header__top">
+        <div class="header__top_links">
+            <a href="tel:+78002346460" class="header__top_link">8-800-234-64-60</a>
+            <a href="mailto:mail@sbitum.ru" class="header__top_link">mail@sbitum.ru</a>
+            <div class="header__top_links_group">
+                <a href="#" class="header__top_link">новости</a>
+                <a href="#" class="header__top_link">вакансии</a>
+                <a href="#" class="header__top_link">тендер</a>
+                <a href="#" class="header__top_link">контакты</a>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <a href="/" class="header__logo">
+            <img src="img/header/logo.png" alt="">
+        </a>
+        <div class="header__group">
+            <div class="header__menu">
+                <a href="#" class="header__menu_link">О компании</a>
+                <div class="header__menu_link this--servises">
+                    <div class="js_open_second_menu header__menu_link_body">
+                        Услуги
+                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 5L9.5 10L5 5" stroke="black"/>
+                        </svg>
+                    </div>
+
+                    <div class="header__menu_second js_second_menu">
+                        <div class="header__menu_second_links">
+                            <a href="#" class="header__menu_second_link">
+                                <div class="header__menu_second_link_img">
+                                    <img src="img/header/services_1.png" alt="">
+                                </div>
+                                <div class="header__menu_second_link_text">Продукция<br> СБМ</div>
+                            </a>
+                            <a href="#" class="header__menu_second_link">
+                                <div class="header__menu_second_link_img">
+                                    <img src="img/header/services_2.png" alt="">
+                                </div>
+                                <div class="header__menu_second_link_text">Горячее оцинкование<br> металоконструкций</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="header__menu_link">Команда</a>
+                <div class="header__menu_close">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="header__btns">
+                <a href="#" class="header__btn btn">Расчет стоимости</a>
+                <div class="header__burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <main class="main">
+        <section class="main_top">
+    <div class="container">
+        <div class="main_top__content">
+            <div class="main_top__left">
+                <div class="main_top__left_body">
+                    <div class="main_top__dates">
+                        1991
+                        <span></span>
+                        2023
+                    </div>
+                    <h1 class="main_top__title h1_title">Группа компаний «БИТУМ»</h1>
+                    <div class="main_top__text">это промышленный холдинг, включающий в себя, помимо завода по производству нефтяных дорожных вяжущих, предприятие по горячему оцинкованию металлических изделий «Салаватметалл» и производственное объединение «Современные битумные материалы». Группа компаний «БИТУМ» выпускает широкую номенклатуру высококачественной продукции для дорожного строительства и благоустройства дорожной инфраструктуры.</div>
+                </div>
+            </div>
+            <div class="main_top__right">
+                <div class="main_top__right_body">
+                    <svg width="618" height="725" viewBox="0 0 618 725" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M308.002 3.55339C308.8 2.17505 310.267 1.32125 311.86 1.3084L411.996 0.499984H412.004L512.14 1.30839C513.733 1.32125 515.2 2.17504 515.998 3.55339L566.772 91.2437L566.776 91.2505L616.203 179.807C616.964 181.17 616.964 182.83 616.203 184.193L566.776 272.749L566.772 272.756L515.998 360.447C515.2 361.825 513.733 362.679 512.14 362.692L412.004 363.5H411.996L311.86 362.692C310.267 362.679 308.8 361.825 308.002 360.447L257.228 272.756L257.224 272.749L207.797 184.193C207.036 182.83 207.036 181.17 207.797 179.807L257.224 91.2505L257.228 91.2437L308.002 3.55339Z" stroke="#1D1D1D"/>
+                        <path d="M51.2613 451.976L103.358 361.974L206.133 361.144H206.141L308.916 361.974L361.013 451.976L361.017 451.983L411.701 542.822L361.017 633.66L361.013 633.667L308.916 723.67L206.141 724.5H206.133L103.358 723.67L51.2613 633.667L51.2574 633.66L0.572564 542.822L51.2574 451.983L51.2613 451.976Z" stroke="#1D1D1D"/>
+                    </svg>
+                    <a href="#" class="main_top__link this--1">
+                        <div class="main_top__link_top">СБМ</div>
+                        <div class="main_top__link_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </div>
+                        <div class="main_top__link_bottom"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="26" viewBox="0 0 30 26" fill="none">
+                            <path d="M1 11.9678L28.5772 12.6749M28.5772 12.6749L18 1.03272M28.5772 12.6749L16.8945 24.3575" stroke="#1D1D1D" stroke-width="2"/>
+                        </svg></div>
+                        <span class="main_top__link_bg"></span>
+                        <span class="main_top__link_anim"></span>
+                        <span class="main_top__link_video"></span>
+                    </a>
+                    <a href="#" class="main_top__link this--2">
+                        <div class="main_top__link_top">Салаватметалл</div>
+                        <div class="main_top__link_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </div>
+                        <div class="main_top__link_bottom"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="26" viewBox="0 0 30 26" fill="none">
+                            <path d="M1 11.9678L28.5772 12.6749M28.5772 12.6749L18 1.03272M28.5772 12.6749L16.8945 24.3575" stroke="#1D1D1D" stroke-width="2"/>
+                        </svg></div>
+                        <span class="main_top__link_bg"></span>
+                        <span class="main_top__link_anim"></span>
+                        <span class="main_top__link_video"></span>
+                    </a>
+                </div>
+            </div>
+            <button class="main_top__arrow js_main_top_arrow_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                    <path d="M24.2929 34.7071C24.6834 35.0976 25.3166 35.0976 25.7071 34.7071L32.0711 28.3431C32.4616 27.9526 32.4616 27.3195 32.0711 26.9289C31.6805 26.5384 31.0474 26.5384 30.6569 26.9289L25 32.5858L19.3431 26.9289C18.9526 26.5384 18.3195 26.5384 17.9289 26.9289C17.5384 27.3195 17.5384 27.9526 17.9289 28.3431L24.2929 34.7071ZM24 16L24 34L26 34L26 16L24 16Z" fill="#1D1D1D"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</section>
+        <section class="main_video" id="main_video">
+    <div class="main_video__video">
+        <img src="img/main_top/video_1.gif" alt="">
+    </div>
+    <div class="main_video__items">
+        <div class="container">
+            <div class="main_video__items_row">
+                <div class="main_video__item">
+                    <div class="main_video__item_img">
+                        <img src="img/main_video/icon_1.svg" alt="">
+                    </div>
+                    <div class="main_video__item_text">Автоматизированная система управления производством.</div>
+                </div>
+                <div class="main_video__item">
+                    <div class="main_video__item_img">
+                        <img src="img/main_video/icon_2.svg" alt="">
+                    </div>
+                    <div class="main_video__item_text">Битумы по ГОСТ 22245-90, ГОСТ 33133-2014, ГОСТ Р 58400.1-2019.</div>
+                </div>
+                <div class="main_video__item">
+                    <div class="main_video__item_img">
+                        <img src="img/main_video/icon_3.svg" alt="">
+                    </div>
+                    <div class="main_video__item_text">Собственный лабораторно-аналитический комплекс, круглосуточно проводящий исследование готовой продукции.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="main_about">
+    <div class="main_about__wrapper">
+        <div class="main_about__text_slider_pagination"></div>
+        <div class="container">
+            <div class="main_about__content">
+                <div class="main_about__left">
+                    <h2 class="main_about__title h2_title">О компании</h2>
+                    <div class="main_about__text_slider swiper-container">
+                        <div class="main_about__text_slider_wrapper swiper-wrapper">
+                            <div class="main_about__text_slider_slide swiper-slide">
+                                <div class="main_about__text_slider_mob_num"></div>
+                                <div class="main_about__text_slider_text">Завод «БИТУМ» был основан 16 августа 1991 года на базе подсобного хозрасчетного участка ремонтно-строительного управления дорог города Салавата, который работал с мая 1980 года.</div>
+                            </div>
+                            <div class="main_about__text_slider_slide swiper-slide">
+                                <div class="main_about__text_slider_mob_num"></div>
+                                <div class="main_about__text_slider_text">Компания специализируется на производстве битума и полимерно-битумных вяжущих (ПБВ) путем окисления мазута. С 2018 года после глубокой модернизации и расширения производства изготавливает высококачественные ПБВ для объемного проектирования асфальтобетонных смесей (ГОСТ 58400.1 – 2019).</div>
+                            </div>
+                            <div class="main_about__text_slider_slide swiper-slide">
+                                <div class="main_about__text_slider_mob_num"></div>
+                                <div class="main_about__text_slider_text">Общая мощность производства - 360 тысяч тонн вяжущих в год. Производство работает круглогодично, отгрузка готовой продукции производится автомобильным и железнодорожным транспортом по графику 24/7.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="main_about__btn btn_arrow"><span class="btn_arrow__arrow this--hover"></span><span class="btn_arrow__text">Подробнее</span><span class="btn_arrow__arrow"></span></a>
+                </div>
+                <div class="main_about__right">
+                    <div class="main_about__img_slider star_slider swiper_container">
+                        <div class="main_about__star_bg this--1"></div>
+                        <div class="main_about__star_bg this--2"></div>
+                        <div class="star_slider__wrapper swiper-wrapper">
+                            <div class="star_slider__slide swiper-slide">
+                                <div class="star_slider__img">
+                                    <img src="img/main_about/img_1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="star_slider__slide swiper-slide">
+                                <div class="star_slider__img">
+                                    <img src="img/main_about/img_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="star_slider__slide swiper-slide">
+                                <div class="star_slider__img">
+                                    <img src="img/main_about/img_3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="main_products">
+    <div class="main_products__wrapper">
+        <div class="main_products__slider_pagination"></div>
+        <div class="container">
+            <div class="main_products__content">
+                <div class="main_products__left">
+                    <h2 class="main_products__title this--mobile">Продукция</h2>
+                    <div class="main_products__img_slider star_slider swiper_container">
+                        <div class="star_slider__wrapper swiper-wrapper">
+                            <div class="star_slider__slide main_products__img_slide swiper-slide">
+                                <div class="star_slider__img">
+                                    <img src="img/main_products/img_1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="star_slider__slide main_products__img_slide swiper-slide">
+                                <div class="star_slider__img">
+                                    <img src="img/main_products/img_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="star_slider__slide main_products__img_slide swiper-slide">
+                                <div class="star_slider__img">
+                                    <img src="img/main_products/img_3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="star_slider__slide main_products__img_slide swiper-slide">
+                                <div class="star_slider__img">
+                                    <img src="img/main_products/img_4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_products__right">
+                    <h2 class="main_products__title this--desktop">Продукция</h2>
+                    <div class="main_products__accordions">
+                        <div class="main_products__accordion js_product_accordion" data-accordion="0">
+                            <div class="main_products__accordion_head js_product_accordion_head">
+                                Материалы вяжущие нефтяные битумные
+                                <svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_417_4098)">
+                                        <path d="M7.6067 26.2071C7.87393 26.6621 8.36055 26.9432 8.88817 26.9474L15.5 27L22.1118 26.9474C22.6395 26.9432 23.1261 26.6621 23.3933 26.2071L26.7452 20.5002L30.007 14.739C30.2666 14.2805 30.2666 13.7195 30.007 13.261L26.7452 7.49978L23.3933 1.79291C23.1261 1.33794 22.6395 1.05683 22.1118 1.05264L15.5 1.00002L8.88817 1.05263C8.36055 1.05683 7.87393 1.33794 7.60671 1.79291L4.25479 7.4998L0.992991 13.261C0.733406 13.7195 0.733406 14.2805 0.992991 14.739L4.2548 20.5002L7.6067 26.2071Z" stroke="#1D1D1D"/>
+                                        <path d="M10 13.4556L20.4992 13.7248M20.4992 13.7248L16.0124 9.23792M20.4992 13.7248L16.0514 18.1726" stroke="#1D1D1D"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_417_4098">
+                                            <rect width="31" height="27" fill="white" transform="translate(0 0.5)"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="main_products__accordion_body">
+                                <ul class="main_products__accordion_list this--two_columns">
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                    <li><a href="#">PG58-22 ГОСТ Р 58400.1-2019</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main_products__accordion js_product_accordion" data-accordion="1">
+                            <div class="main_products__accordion_head js_product_accordion_head">
+                                Полимерно-битумные вяжущие
+                                <svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_417_4098)">
+                                        <path d="M7.6067 26.2071C7.87393 26.6621 8.36055 26.9432 8.88817 26.9474L15.5 27L22.1118 26.9474C22.6395 26.9432 23.1261 26.6621 23.3933 26.2071L26.7452 20.5002L30.007 14.739C30.2666 14.2805 30.2666 13.7195 30.007 13.261L26.7452 7.49978L23.3933 1.79291C23.1261 1.33794 22.6395 1.05683 22.1118 1.05264L15.5 1.00002L8.88817 1.05263C8.36055 1.05683 7.87393 1.33794 7.60671 1.79291L4.25479 7.4998L0.992991 13.261C0.733406 13.7195 0.733406 14.2805 0.992991 14.739L4.2548 20.5002L7.6067 26.2071Z" stroke="#1D1D1D"/>
+                                        <path d="M10 13.4556L20.4992 13.7248M20.4992 13.7248L16.0124 9.23792M20.4992 13.7248L16.0514 18.1726" stroke="#1D1D1D"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_417_4098">
+                                            <rect width="31" height="27" fill="white" transform="translate(0 0.5)"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="main_products__accordion_body">
+                                <ul class="main_products__accordion_list">
+                                    <li><a href="#">ПБВ 60 ГОСТ Р 52056-2003</a></li>
+                                    <li><a href="#">ПБВ 90 ГОСТ Р 52056-2003</a></li>
+                                    <li><a href="#">ПБВ 130 ГОСТ Р 52056-2003</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main_products__accordion js_product_accordion" data-accordion="2">
+                            <div class="main_products__accordion_head js_product_accordion_head">
+                                Битум нефтяной дорожный вязкий по ГОСТ 33133-2014
+                                <svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_417_4098)">
+                                        <path d="M7.6067 26.2071C7.87393 26.6621 8.36055 26.9432 8.88817 26.9474L15.5 27L22.1118 26.9474C22.6395 26.9432 23.1261 26.6621 23.3933 26.2071L26.7452 20.5002L30.007 14.739C30.2666 14.2805 30.2666 13.7195 30.007 13.261L26.7452 7.49978L23.3933 1.79291C23.1261 1.33794 22.6395 1.05683 22.1118 1.05264L15.5 1.00002L8.88817 1.05263C8.36055 1.05683 7.87393 1.33794 7.60671 1.79291L4.25479 7.4998L0.992991 13.261C0.733406 13.7195 0.733406 14.2805 0.992991 14.739L4.2548 20.5002L7.6067 26.2071Z" stroke="#1D1D1D"/>
+                                        <path d="M10 13.4556L20.4992 13.7248M20.4992 13.7248L16.0124 9.23792M20.4992 13.7248L16.0514 18.1726" stroke="#1D1D1D"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_417_4098">
+                                            <rect width="31" height="27" fill="white" transform="translate(0 0.5)"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="main_products__accordion_body">
+                                <ul class="main_products__accordion_list">
+                                    <li><a href="#">БНД 50/70 ГОСТ 33133-2014</a></li>
+                                    <li><a href="#">БНД 70/100 ГОСТ 33133-2014</a></li>
+                                    <li><a href="#">БНД 100/130 ГОСТ 33133-2014</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main_products__accordion js_product_accordion" data-accordion="3">
+                            <div class="main_products__accordion_head js_product_accordion_head">
+                                Битумы нефтяные дорожные вязкие по ГОСТ 22245-90 изм.1
+                                <svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_417_4098)">
+                                        <path d="M7.6067 26.2071C7.87393 26.6621 8.36055 26.9432 8.88817 26.9474L15.5 27L22.1118 26.9474C22.6395 26.9432 23.1261 26.6621 23.3933 26.2071L26.7452 20.5002L30.007 14.739C30.2666 14.2805 30.2666 13.7195 30.007 13.261L26.7452 7.49978L23.3933 1.79291C23.1261 1.33794 22.6395 1.05683 22.1118 1.05264L15.5 1.00002L8.88817 1.05263C8.36055 1.05683 7.87393 1.33794 7.60671 1.79291L4.25479 7.4998L0.992991 13.261C0.733406 13.7195 0.733406 14.2805 0.992991 14.739L4.2548 20.5002L7.6067 26.2071Z" stroke="#1D1D1D"/>
+                                        <path d="M10 13.4556L20.4992 13.7248M20.4992 13.7248L16.0124 9.23792M20.4992 13.7248L16.0514 18.1726" stroke="#1D1D1D"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_417_4098">
+                                            <rect width="31" height="27" fill="white" transform="translate(0 0.5)"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="main_products__accordion_body">
+                                <ul class="main_products__accordion_list">
+                                    <li><a href="#">ПБВ 60/90 ГОСТ 22245-90 изм.1</a></li>
+                                    <li><a href="#">ПБВ 90/130 ГОСТ 22245-90 изм.1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="main_products__btn btn_arrow"><span class="btn_arrow__arrow this--hover"></span><span class="btn_arrow__text">Подробнее</span><span class="btn_arrow__arrow"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="main_factory">
+    <div class="main_factory__wrapper">
+        <div class="container">
+            <div class="main_factory__content">
+                <div class="main_factory__left">
+                    <h2 class="main_factory__title h2_title">Производство</h2>
+                    <div class="main_factory__text">
+                        <p>Производство дорожных битумов методом окисления включает
+                            в себя установку мощностью 360 тысяч тонн в год, состоящую из двух колонн, блока предварительной подготовки гудрона, компрессорных и насосных установок, автоматической системы контроля.</p>
+                        <p>Автоматизация производства и сведение к минимуму человеческого фактора гарантирует полное соответствие произведенных битумов стандартам - ГОСТ 22245-90 и ГОСТ 33133-2014.</p>
+                    </div>
+                    <a href="#" class="main_factory__btn btn_arrow"><span class="btn_arrow__arrow this--hover"></span><span class="btn_arrow__text">Подробнее</span><span class="btn_arrow__arrow"></span></a>
+                </div>
+                <div class="main_factory__right">
+                    <div class="main_factory__img js_factory_img">
+                        <img src="img/main_factory/img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="main_salavat">
+    <div class="container">
+        <div class="main_salavat__content">
+            <div class="main_salavat__body">
+                <h2 class="main_salavat__title h2_title">«Салаватметалл»</h2>
+                <div class="main_salavat__text">
+                    специализируется на горячем оцинковании металлических изделий, используемых: в дорожном строительстве и других отраслях.
+                </div>
+                <a href="#" class="main_salavat__btn btn_arrow this--blue"><span class="btn_arrow__arrow this--hover"></span><span class="btn_arrow__text">Подробнее</span><span class="btn_arrow__arrow"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="main_news">
+    <div class="container">
+        <div class="main_news__content">
+            <div class="main_news__top">
+                <div class="main_news__group">
+                    <h2 class="main_news__title h2_title">Новости</h2>
+                    <div class="main_news__links_wr">
+                        <div class="main_news__links">
+                            <a href="#" class="main_news__link active">Все</a>
+                            <a href="#" class="main_news__link this--sbm">«СБМ»</a>
+                            <a href="#" class="main_news__link this--bitum">«Битум»</a>
+                            <a href="#" class="main_news__link this--salavat">«Cалаватметалл»</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="main_news__main_link this--desktop icon_link">Смотреть все
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="27" viewBox="0 0 31 27" fill="none">
+                        <path d="M7.6067 25.7071C7.87393 26.1621 8.36055 26.4432 8.88817 26.4474L15.5 26.5L22.1118 26.4474C22.6395 26.4432 23.1261 26.1621 23.3933 25.7071L26.7452 20.0002L30.007 14.239C30.2666 13.7805 30.2666 13.2195 30.007 12.761L26.7452 6.99978L23.3933 1.29291C23.1261 0.837942 22.6395 0.556833 22.1118 0.552635L15.5 0.500017L8.88817 0.552633C8.36055 0.556831 7.87393 0.83794 7.60671 1.29291L4.25479 6.9998L0.992991 12.761C0.733406 13.2195 0.733406 13.7805 0.992991 14.239L4.2548 20.0002L7.6067 25.7071Z" stroke="#1D1D1D"/>
+                        <path d="M10 12.9556L20.4992 13.2248M20.4992 13.2248L16.0124 8.73792M20.4992 13.2248L16.0514 17.6726" stroke="#1D1D1D"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="main_news__slider_wr">
+                <div class="main_news__slider_prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="60" viewBox="0 0 70 60" fill="none">
+                        <g clip-path="url(#clip0_336_6167)">
+                            <path d="M54.8065 55.9983C53.3744 58.3979 50.7939 59.8763 47.9996 59.8982L35 60L22.0004 59.8982C19.2061 59.8763 16.6256 58.3979 15.1935 55.9983L8.62953 45L2.29508 33.9893C0.874201 31.5195 0.874209 28.4804 2.29508 26.0107L8.62953 15L15.1935 4.00168C16.6256 1.6021 19.2061 0.123695 22.0004 0.10181L35 -3.0598e-06L47.9996 0.101805C50.7939 0.12369 53.3744 1.60209 54.8065 4.00168L61.3705 15L67.7049 26.0107C69.1258 28.4804 69.1258 31.5196 67.7049 33.9893L61.3705 45L54.8065 55.9983Z" fill="#C7C7C7"/>
+                            <path d="M46 30L24.0797 29.2929M24.0797 29.2929L33.5078 38.721M24.0797 29.2929L33.3028 20.0698" stroke="black"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_336_6167">
+                                <rect width="70" height="60" fill="white" transform="translate(70 60) rotate(-180)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="main_news__slider_next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="60" viewBox="0 0 70 60" fill="none">
+                        <g clip-path="url(#clip0_336_4375)">
+                            <path d="M15.1935 4.00168C16.6256 1.60209 19.2061 0.123693 22.0004 0.101808L35 0L47.9996 0.101808C50.7939 0.123693 53.3744 1.60209 54.8065 4.00168L61.3705 15L67.7049 26.0107C69.1258 28.4804 69.1258 31.5196 67.7049 33.9893L61.3705 45L54.8065 55.9983C53.3744 58.3979 50.7939 59.8763 47.9996 59.8982L35 60L22.0004 59.8982C19.2061 59.8763 16.6256 58.3979 15.1935 55.9983L8.62953 45L2.29508 33.9893C0.874203 31.5196 0.874203 28.4804 2.29508 26.0107L8.62953 15L15.1935 4.00168Z" fill="#FFB200"/>
+                            <path d="M24 30L45.9203 30.7071M45.9203 30.7071L36.4922 21.279M45.9203 30.7071L36.6972 39.9302" stroke="black"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_336_4375">
+                                <rect width="70" height="60" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="main_news__slider swiper-container">
+                    <div class="main_news__slider_wrapper swiper-wrapper">
+                        <div class="main_news__slider_slide swiper-slide">
+                            <a href="#" class="main_news__item news_card">
+                                <div class="news_card__img">
+                                    <img src="img/main_news/img_1.jpg" alt="">
+                                    <div class="news_card__tag this--bitum">«Битум»</div>
+                                </div>
+                                <div class="news_card__date">13 Март’23</div>
+                                <div class="news_card__text">Lorem ipsum dolor sit amet, consectetur </div>
+                            </a>
+                        </div>
+                        <div class="main_news__slider_slide swiper-slide">
+                            <a href="#" class="main_news__item news_card">
+                                <div class="news_card__img">
+                                    <img src="img/main_news/img_2.jpg" alt="">
+                                    <div class="news_card__tag this--sbm">«СБМ»</div>
+                                </div>
+                                <div class="news_card__date">13 Март’23</div>
+                                <div class="news_card__text">Lorem ipsum dolor sit amet, consectetur </div>
+                            </a>
+                        </div>
+                        <div class="main_news__slider_slide swiper-slide">
+                            <a href="#" class="main_news__item news_card">
+                                <div class="news_card__img">
+                                    <img src="img/main_news/img_3.jpg" alt="">
+                                    <div class="news_card__tag this--salavat">«Cалаватметалл»</div>
+                                </div>
+                                <div class="news_card__date">13 Март’23</div>
+                                <div class="news_card__text">Lorem ipsum dolor sit amet, consectetur </div>
+                            </a>
+                        </div>
+                        <div class="main_news__slider_slide swiper-slide">
+                            <a href="#" class="main_news__item news_card">
+                                <div class="news_card__img">
+                                    <img src="img/main_news/img_1.jpg" alt="">
+                                    <div class="news_card__tag this--bitum">«Битум»</div>
+                                </div>
+                                <div class="news_card__date">13 Март’23</div>
+                                <div class="news_card__text">Lorem ipsum dolor sit amet, consectetur </div>
+                            </a>
+                        </div>
+                        <div class="main_news__slider_slide swiper-slide">
+                            <a href="#" class="main_news__item news_card">
+                                <div class="news_card__img">
+                                    <img src="img/main_news/img_2.jpg" alt="">
+                                    <div class="news_card__tag this--sbm">«СБМ»</div>
+                                </div>
+                                <div class="news_card__date">13 Март’23</div>
+                                <div class="news_card__text">Lorem ipsum dolor sit amet, consectetur </div>
+                            </a>
+                        </div>
+                        <div class="main_news__slider_slide swiper-slide">
+                            <a href="#" class="main_news__item news_card">
+                                <div class="news_card__img">
+                                    <img src="img/main_news/img_3.jpg" alt="">
+                                    <div class="news_card__tag this--salavat">«Cалаватметалл»</div>
+                                </div>
+                                <div class="news_card__date">13 Март’23</div>
+                                <div class="news_card__text">Lorem ipsum dolor sit amet, consectetur </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="main_news__main_link btn this--mobile">Смотреть все</a>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+    <div class="footer__top">
+        <div class="footer__run_string">
+            <div class="footer__run_string_images marquee">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_4.png" alt="">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_3.png" alt="">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_4.png" alt="">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_3.png" alt="">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_4.png" alt="">
+            </div>
+            <div class="footer__run_string_images marquee" aria-hidden="true">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_4.png" alt="">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_3.png" alt="">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_4.png" alt="">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_3.png" alt="">
+                <img src="img/footer/partner_1.png" alt="">
+                <img src="img/footer/partner_2.png" alt="">
+                <img src="img/footer/partner_4.png" alt="">
+            </div>
+        </div>
+        <div class="footer__row">
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <img src="img/footer/footer_logo.png" alt="">
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu_group">
+                        <div class="footer__menu_title">Битум</div>
+                        <ul class="footer__menu_links">
+                            <li><a href="#" class="footer__menu_link">Главная</a></li>
+                            <li><a href="#" class="footer__menu_link">О компании</a></li>
+                            <li><a href="#" class="footer__menu_link">Команда</a></li>
+                            <li><a href="#" class="footer__menu_link">Расчет стоимость</a></li>
+                            <li><a href="#" class="footer__menu_link">Новости</a></li>
+                            <li><a href="#" class="footer__menu_link">Тендер</a></li>
+                            <li><a href="#" class="footer__menu_link">Вакансии</a></li>
+                            <li><a href="#" class="footer__menu_link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu_group">
+                        <div class="footer__menu_title">СБМ</div>
+                        <ul class="footer__menu_links">
+                            <li><a href="#" class="footer__menu_link">Главная</a></li>
+                            <li><a href="#" class="footer__menu_link">Преимущество</a></li>
+                            <li><a href="#" class="footer__menu_link">Продукция</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_group this--mt">
+                        <div class="footer__menu_title">Cалаватметалл</div>
+                        <ul class="footer__menu_links">
+                            <li><a href="#" class="footer__menu_link">Главная</a></li>
+                            <li><a href="#" class="footer__menu_link">Производство</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__contacts">
+                    <div class="footer__address footer__contacts_item">453256, РБ, г. Салават, ул. Молодогвардейцев, 60, стр. 1</div>
+                    <a href="tel:+78002346460" class="footer__tel footer__contacts_item">Телефон<br>8-800-234-64-60</a>
+                    <a href="mailto:mail@sbitum.ru" class="footer__mail footer__contacts_item">Почта<br>mail@sbitum.ru</a>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="footer__vk footer__social_item">Вконтакте</a>
+                    <a href="#" class="footer__tg footer__social_item">Телеграмм</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="footer__bottom_group">
+            <div class="footer__time">местное время: <span class="js_footer_time">11:02</span></div>
+            <a href="#" class="footer__politic">Политика конфиденциальности</a>
+        </div>
+        <div class="footer__develope">
+            <a href="#" class="footer__develope_link">
+                <div class="footer__develope_link_top">Дизайн</div>
+                <img src="img/footer/dis_logo_light.png" class="footer__dis_logo" alt="">
+            </a>
+            <a href="#" class="footer__develope_link">
+                <img src="img/footer/dev_logo_light.png" class="footer__dev_logo" alt="">
+            </a>
+        </div>
+    </div>
+</footer>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/fancybox.umd.js"></script>
+<script src="js/jquery.inputmask.bundle.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>

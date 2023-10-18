@@ -1,0 +1,36 @@
+.team_chess {
+  border-radius: 30px;
+  background: radial-gradient(148.9% 71.07% at 76.82% 61.7%, #FFDB67 0%, #FFB200 100%);
+  box-shadow: 0px -17px 45px 0px rgba(0, 0, 0, 0.09);
+  position: relative;
+  z-index: 2;
+  margin-top: -30px;
+  overflow: hidden;
+
+  @media ($tablet) {
+    border-radius: 15px;
+  }
+
+  .about_chess__img {
+
+    img {
+      z-index: 2;
+    }
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      width: 74%;
+      height: 76%;
+      background: url('../img/team/star_bg_wh.svg') center / 100% 100% no-repeat;
+    }
+    &::before {
+      top: -29%;
+      right: -3%;
+    }
+    &::after {
+      left: -5%;
+      bottom: -13%;
+    }
+  }
+}

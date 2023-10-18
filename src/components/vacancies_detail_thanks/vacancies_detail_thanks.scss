@@ -1,0 +1,65 @@
+.vacancies_detail_thanks {
+  border-radius: 0 0 30px 30px;
+  background: #FFF;
+  box-shadow: 3px -1px 50px 0px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 2;
+  margin-top: -80px;
+}
+.vacancies_detail_thanks__content {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vacancies_detail_thanks__body {
+  text-align: center;
+  @media ($mobile2) {
+    width: 100%;
+  }
+}
+.vacancies_detail_thanks__logo {
+  width: 131px;
+  margin: 0 auto;
+
+  @media ($tablet3) {
+    width: 103px;
+  }
+  img {
+    width: 100%;
+  }
+}
+.vacancies_detail_thanks__title {
+  margin-top: 30px;
+
+  @media ($tablet3) {
+    font-size: 3.2rem;
+  }
+}
+.vacancies_detail_thanks__text {
+  margin: 16px auto 0;
+  color: #82919B;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 433px;
+
+  @media ($tablet3) {
+    font-size: 1.6rem;
+    max-width: 247px;
+  }
+}
+.vacancies_detail_thanks__btn {
+  width: 207px;
+  margin: 50px auto 0;
+
+  @media ($tablet3) {
+    font-size: 1.4rem;
+    padding: 14px 10px;
+  }
+
+  @media ($mobile2) {
+    width: 100%;
+  }
+}

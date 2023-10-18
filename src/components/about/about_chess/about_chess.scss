@@ -1,0 +1,120 @@
+.about_chess {
+  margin-top: -30px;
+  border-radius: 30px 30px 0 0;
+  background: radial-gradient(148.9% 71.07% at 76.82% 61.7%, #FFDB67 0%, #FFB200 100%);
+  box-shadow: 0 -17px 45px 0 rgba(0, 0, 0, 0.09);
+  padding: 17px 0;
+
+  @media ($tablet) {
+    border-radius: 15px 15px 0 0;
+    padding: 30px 0;
+  }
+
+}
+.about_chess__content {
+  padding: 168px 0;
+  border-top: 1px solid #CF5600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+
+  @media ($desktop) {
+    padding: 100px 0;
+  }
+  @media ($tablet) {
+    padding: 50px 0;
+  }
+
+  &.this--reverse {
+    flex-direction: row-reverse;
+  }
+
+  &:first-child {
+    border-top: none;
+  }
+}
+.about_chess__left {
+  width: 50%;
+  max-width: 650px;
+
+  @media ($tablet) {
+    max-width: none;
+    width: auto;
+  }
+}
+.about_chess__right {
+  width: 50%;
+  max-width: 650px;
+  @media ($tablet) {
+    display: none;
+  }
+}
+.about_chess__img {
+  padding-top: 88.4615%;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+}
+.about_chess__icon {
+  width: 40px;
+
+  @media ($tablet3) {
+    width: 30px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+.about_chess__title {
+  margin-top: 33px;
+  color: #191404;
+  font-size: 4.7rem;
+  font-weight: 400;
+  line-height: 1.27;
+
+  @media ($tablet3) {
+    margin-top: 12px;
+    font-size: 3.2rem;
+    line-height: 1.14;
+  }
+}
+.about_chess__text {
+  margin-top: 40px;
+  color: #191404;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media ($tablet3) {
+    margin-top: 12px;
+    font-size: 1.6rem;
+    line-height: normal;
+  }
+
+  p:not(:first-child) {
+    margin-top: 15px;
+  }
+  ul {
+    padding-left: 30px;
+    @media ($tablet3) {
+      padding-left: 25px;
+    }
+  }
+}
+.about_chess__btn {
+  margin-top: 45px;
+
+  .btn_arrow__text {
+    padding: 16px 48px;
+  }
+}

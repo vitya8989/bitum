@@ -1,0 +1,137 @@
+.news {
+  background: #ffffff;
+  border-radius: 0 0 30px 30px;
+  position: relative;
+  z-index: 3;
+  box-shadow: 3px 42px 50px 0 rgba(0, 0, 0, 0.05);
+  padding-bottom: 125px;
+
+  @media ($desktopSuperBig) {
+    padding-bottom: 75px;
+  }
+}
+.company_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 27px;
+  gap: 58px;
+  @media ($tablet3) {
+    gap: 30px;
+  }
+}
+.company_link {
+  color: #191404;
+  font-size: 2rem;
+  font-weight: 450;
+  line-height: normal;
+  opacity: 0.3;
+
+  @media ($tablet3) {
+    font-size: 1.6rem;
+  }
+
+  &.active {
+    pointer-events: none;
+    opacity: 1;
+  }
+}
+.news__breadcrumbs {
+  margin-top: 115px;
+
+  @media ($desktopSuperBig) {
+    margin-top: 75px;
+  }
+  @media ($tablet) {
+    margin-top: 40px;
+  }
+}
+.news__title {
+  margin-top: 19px;
+  text-align: center;
+
+  @media ($tablet) {
+    margin-top: 10px;
+  }
+
+}
+.news__items {
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 66px;
+  margin-left: -60px;
+  border-bottom: 1px solid #D9D9D9;
+
+  @media ($desktopSuperBig) {
+    margin-top: 75px;
+    padding-bottom: 20px;
+  }
+  @media ($desktop) {
+    margin-left: -30px;
+    margin-top: 60px;
+  }
+  @media ($tablet) {
+    margin-top: 50px;
+  }
+}
+.news__item {
+  margin-left: 60px;
+  width: calc(33.333% - 60px);
+  margin-bottom: 80px;
+
+  @media ($desktop) {
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: calc(33.333% - 30px);
+  }
+  @media ($tablet) {
+    width: calc(50% - 30px);
+  }
+  @media ($tablet3) {
+    width: calc(100% - 30px);
+  }
+}
+.news__pagination {
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  @media ($tablet3) {
+    gap: 10px;
+  }
+}
+.news__pagination_link {
+  width: 70px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: 0.3;
+  transition: opacity 0.25s;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: url('../img/star.svg') center / contain no-repeat;
+
+  @media ($tablet3) {
+    width: 60px;
+    height: 50px;
+  }
+
+  &:hover {
+    @media #{$mouse-device} {
+      opacity: 1;
+    }
+  }
+
+  &.active {
+    opacity: 1;
+    pointer-events: none;
+    background: #FFB200;
+  }
+}

@@ -1,0 +1,154 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  color: #1D1D1D;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 78px;
+  background: #E68200;
+  transition: box-shadow 0.25s, background 0.25s, color 0.25s;
+
+  @media ($tablet) {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  //&:focus {
+  //  box-shadow: 0 1px 5px 2px #2863DF;
+  //}
+  &:hover {
+    @media #{$mouse-device} {
+      background: #f39a01;
+    }
+  }
+  &:active {
+    background: #CF5600!important;
+    color: #ffffff;
+  }
+}
+
+.btn_arrow {
+  display: flex;
+  align-items: flex-start;
+  height: 54px;
+
+  &:hover {
+    @media #{$mouse-device} {
+      .btn_arrow__arrow {
+        width: 0;
+
+        &.this--hover {
+          width: 62px;
+        }
+      }
+    }
+  }
+  &:active {
+    .btn_arrow__arrow {
+      width: 0;
+
+      &.this--hover {
+        width: 62px;
+      }
+    }
+    .btn_arrow__text {
+      color: #FFF;
+      background: #CF5600;
+    }
+  }
+
+  .btn_arrow__text {
+    color: #1D1D1D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 14px 48px;
+    border-radius: 400px;
+    background: #ffecbf;
+    transition: color 0.25s, background 0.25s;
+
+    @media ($tablet3) {
+      font-size: 1.4rem;
+      padding: 13px 32px;
+    }
+  }
+  .btn_arrow__arrow {
+    width: 62px;
+    height: 54px;
+    background: url('../img/btn_arrow.svg') center / contain no-repeat;
+    transition: width 0.25s, height 0.25s;
+
+    @media ($tablet3) {
+      width: 48px;
+      height: 43px;
+    }
+
+    &.this--hover {
+      width: 0;
+    }
+  }
+  &.this--top {
+    .btn_arrow__arrow {
+      background: url('../img/btn_arrow_top.svg') center / contain no-repeat;
+    }
+  }
+  &.this--blue {
+    .btn_arrow__text {
+      background: #93B1EF;
+    }
+    .btn_arrow__arrow {
+      background: url('../img/btn_blue_arrow.svg') center / contain no-repeat;
+    }
+    &:active {
+      .btn_arrow__text {
+        color: #FFF;
+        background: #2863DF;
+      }
+    }
+  }
+}
+
+.icon_link {
+  color: #1D1D1D;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  transition: color 0.25s;
+
+  svg {
+    width: 31px;
+    height: 27px;
+    flex: 0 0 auto;
+    margin-left: 26px;
+
+    path:first-child {
+      fill: transparent;
+      transition: fill 0.25s, stroke 0.25s;
+    }
+  }
+
+  &:hover {
+    @media #{$mouse-device} {
+      svg {
+        path:first-child {
+          fill: #E68200;
+          stroke: #E68200;
+        }
+      }
+    }
+  }
+  &:active {
+    svg {
+      path:first-child {
+        fill: #CF5600!important;
+        stroke: #CF5600!important;
+      }
+    }
+    color: #CF5600;
+  }
+}

@@ -1,0 +1,111 @@
+.vacancies_detail_top {
+  background: radial-gradient(57.73% 62.26% at 51.02% 96.81%, #FFDB67 0%, #FFB200 40%);
+  margin-top: -80px;
+  padding: 121px 0 40px;
+
+  @media ($tablet) {
+    margin-top: -64px;
+    padding: 108px 0 58px;
+  }
+}
+.vacancies_detail_top__content {
+  display: flex;
+}
+.vacancies_detail_top__left {
+  width: 60%;
+  padding-top: 50px;
+
+  @media ($tablet) {
+    padding-top: 0;
+    width: auto;
+  }
+}
+.vacancies_detail_top__right {
+  width: 40%;
+  max-width: 467px;
+  margin-left: 40px;
+  @media ($tablet) {
+    display: none;
+  }
+}
+.vacancies_detail_top__img {
+  position: relative;
+  padding-top: 117.13%;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.vacancies_detail_top__date {
+  margin-top: 97px;
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+
+  @media ($tablet) {
+    margin-top: 32px;
+  }
+  @media ($tablet3) {
+    font-size: 1.4rem;
+  }
+}
+.vacancies_detail_top__title {
+  margin-top: 24px;
+  color: #191404;
+  font-size: 4.7rem;
+  font-weight: 400;
+  line-height: 1.27;
+
+  @media ($tablet) {
+    margin-top: 10px;
+  }
+  @media ($tablet3) {
+    font-size: 2.7rem;
+  }
+}
+.vacancies_detail_top__items {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 74px;
+
+  @media ($tablet) {
+    margin-top: 32px;
+  }
+  @media ($tablet3) {
+    margin-top: 24px;
+  }
+}
+.vacancies_detail_top__item {
+  padding-left: 41px;
+  color: #191404;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media ($tablet3) {
+    font-size: 1.6rem;
+    padding-left: 36px;
+  }
+
+  &.this--point {
+    background: url('../img/vacancies_detail/point.svg') left center / 29px 29px no-repeat;
+
+    @media ($tablet3) {
+      background: url('../img/vacancies_detail/point.svg') left center / 24px 24px no-repeat;
+    }
+  }
+  &.this--paid {
+    background: url('../img/vacancies_detail/paid.svg') left center / 29px 29px no-repeat;
+
+    @media ($tablet3) {
+      background: url('../img/vacancies_detail/paid.svg') left center / 24px 24px no-repeat;
+    }
+  }
+}

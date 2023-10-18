@@ -1,0 +1,73 @@
+.vacancies_top {
+  background: radial-gradient(57.73% 62.26% at 51.02% 96.81%, #FFDB67 0%, #FFB200 40%);
+  margin-top: -80px;
+  overflow: hidden;
+
+  @media ($tablet) {
+    margin-top: -64px;
+  }
+
+  .about_chess__content {
+    padding: 177px 0;
+
+    @media ($tablet) {
+      padding: 108px 0 54px;
+    }
+  }
+  .about_chess__img {
+    img {
+      z-index: 2;
+    }
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      width: 74%;
+      height: 76%;
+      background: url('../img/team/star_bg_wh.svg') center / 100% 100% no-repeat;
+      transform: rotate(-35deg);
+    }
+    &::before {
+      top: -5%;
+      right: -9%;
+    }
+    &::after {
+      left: -14%;
+      bottom: -11%;
+    }
+  }
+}
+.vacancies_top__title {
+  margin-top: 48px;
+  @media ($tablet) {
+    margin-top: 10px;
+  }
+  @media ($tablet3) {
+    font-size: 3.2rem;
+  }
+}
+.vacancies_top__text {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #191404;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media ($tablet) {
+    margin-top: 17px;
+  }
+  @media ($tablet3) {
+    gap: 10px;
+    font-size: 1.4rem;
+    line-height: 1.25;
+  }
+
+  span {
+    width: 37px;
+    height: 32px;
+    background: url('../img/vacancies/arrow.svg') center / 100% 100% no-repeat;
+  }
+}

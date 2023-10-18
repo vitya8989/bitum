@@ -1,0 +1,12 @@
+@@include('../components/main/main_slider/main_slider.js');
+@@include('../components/header/header.js');
+@@include('../components/main/main_top/main_top.js');
+@@include('../components/main/main_about/main_about.js');
+@@include('../components/main/main_products/main_products.js');
+@@include('../components/main/main_factory/main_factory.js');
+@@include('../components/main/main_news/main_news.js');
+@@include('../components/footer/footer.js');
+@@include('../components/about/about_top/about_top.js');
+@@include('../components/vacancies_detail/vacancies_detail/vacancies_detail.js');
+@@include('../components/contacts/contacts.js');
+@@include('../components/tender/tender.js');

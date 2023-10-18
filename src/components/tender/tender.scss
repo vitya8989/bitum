@@ -1,0 +1,133 @@
+.tender_page {
+  padding: 112px 0 272px;
+  @media ($desktop) {
+    padding: 60px 0 90px;
+  }
+  @media ($tablet) {
+    padding: 39px 0 71px;
+    overflow: hidden;
+  }
+}
+.tender__title {
+  text-align: center;
+  margin-top: 32px;
+
+  @media ($tablet) {
+    margin-top: 10px;
+  }
+}
+.tender__subtitle {
+  margin: 19px auto 0;
+  max-width: 689px;
+  color: #191404;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media ($tablet3) {
+    font-size: 1.6rem;
+    line-height: normal;
+  }
+}
+.tender_table {
+  margin-top: 94px;
+
+  @media ($tablet) {
+    margin-top: 60px;
+  }
+}
+.tender_table__title {
+  color: #1D1D1D;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 450;
+  line-height: 1.2;
+}
+.tender_table__search {
+  margin-top: 40px;
+  position: relative;
+
+  @media ($tablet) {
+    margin-top: 31px;
+  }
+}
+.tender_table__search_input {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px 20px 60px;
+  border: 1px solid rgba(29, 29, 29, 0.40);
+  color: #1D1D1D;
+  background: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.56;
+  transition: color 0.25s, background 0.25s, border 0.25s;
+
+  @media ($tablet3) {
+    padding: 15px 10px 15px 50px;
+  }
+
+  &::placeholder {
+    color: rgba(29, 29, 29, 0.40);
+  }
+
+  &:hover {
+    @media #{$mouse-device} {
+      border: 1px solid rgba(29, 29, 29, 1);
+    }
+  }
+  &:focus {
+    border: 1px solid #2863DF !important;
+  }
+}
+.tender_table__search_clear {
+  position: absolute;
+  top: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  left: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s, visibility 0.25s;
+
+  @media ($tablet3) {
+    left: 15px;
+  }
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 0.5px);
+    left: 7px;
+    height: 1px;
+    width: 15px;
+    background: #000;
+  }
+  &::before {
+    transform: rotate(-45deg);
+  }
+  &::after {
+    transform: rotate(45deg);
+  }
+}
+.tender_table__table_wr {
+  margin-top: 19px;
+
+  @media ($tablet3) {
+    overflow-x: auto;
+    margin: 31px -24px 0;
+    padding: 0 24px;
+  }
+}
+.tender_table__table {
+  @media ($tablet3) {
+    width: 707px;
+  }
+}

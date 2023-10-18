@@ -1,0 +1,27 @@
+.h2_title {
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1.28;
+  color: #1D1D1D;
+
+  @media ($desktopBig) {
+    font-size: 5.2rem;
+  }
+  @media ($tablet3) {
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+}
+.h1_title {
+  color: #1D1D1D;
+  font-size: 7.6rem;
+  font-weight: 400;
+  line-height: 1.14;
+
+  @media ($desktopBig) {
+    font-size: 6.5rem;
+  }
+  @media ($tablet3) {
+    font-size: 4rem;
+  }
+}
