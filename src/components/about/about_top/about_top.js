@@ -17,9 +17,11 @@ if (aboutTop) {
         }
 
     });
+
     dateSlider.slideTo(dateSlider.slides.length - 1, 0);
     setTimeout(() => {
         dateSlider.slideTo(0, 0);
+        dateSlider.update();
     }, 10);
 
     const teamCardSlider = new Swiper('.team_card__slider', {
