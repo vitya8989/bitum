@@ -2561,6 +2561,9 @@ main {
 
 .about_chess__btn {
   margin-top: 45px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .about_chess__btn .btn_arrow__text {
