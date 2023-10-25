@@ -1868,6 +1868,9 @@ main {
 
 .main_factory__btn {
   margin-top: 45px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .main_factory__right {
