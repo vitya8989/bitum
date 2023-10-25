@@ -98,6 +98,20 @@ if (header) {
         document.addEventListener('slider-show', () => {
             window.removeEventListener('scroll', toggleHeader);
         });
+    } else if (document.querySelector('.wrapper.orange_header')) {
+        window.addEventListener('scroll', toggleHeader);
+        if (window.pageYOffset > 0) {
+            header.classList.remove('this--transparent')
+        } else {
+            header.classList.add('this--transparent');
+        }
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 0) {
+                header.classList.remove('this--transparent')
+            } else {
+                header.classList.add('this--transparent')
+            }
+        });
     } else {
         window.addEventListener('scroll', toggleHeader);
     }

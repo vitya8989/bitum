@@ -619,7 +619,6 @@ main {
 }
 
 .header {
-  background: #FFB301;
   position: fixed;
   top: 0;
   left: 0;
@@ -628,6 +627,7 @@ main {
 }
 
 .header__top {
+  background: #FFB301;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -685,14 +685,14 @@ main {
           justify-content: space-between;
   background: #ffffff;
   border-radius: 20px 20px 0 0;
-  -webkit-transition: border-radius 0.25s;
-  transition: border-radius 0.25s;
+  -webkit-transition: border-radius 0.25s, background-color 0.25s;
+  transition: border-radius 0.25s, background-color 0.25s;
 }
 
-.orange_header .header__bottom {
-  background: #FFB200;
-  -webkit-box-shadow: 0 -17px 45px 0 rgba(0, 0, 0, 0.09);
-          box-shadow: 0 -17px 45px 0 rgba(0, 0, 0, 0.09);
+.header.this--transparent .header__bottom {
+  background: transparent;
+  -webkit-box-shadow: 0 -38px 45px 0 rgba(0, 0, 0, 0.04);
+          box-shadow: 0 -38px 45px 0 rgba(0, 0, 0, 0.04);
 }
 
 .header.small .header__bottom {
