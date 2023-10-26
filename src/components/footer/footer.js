@@ -30,6 +30,7 @@ if (footer) {
                         }
                     });
                     window.addEventListener('resize', () => {
+                        footer.style.top = ''
                         startMove = footer.getBoundingClientRect().top + window.pageYOffset + footer.getBoundingClientRect().height / 2 - window.innerHeight;
                     });
                 }
@@ -43,6 +44,7 @@ if (footer) {
                     }
                 });
                 window.addEventListener('resize', () => {
+                    footer.style.top = '';
                     startMove = footer.getBoundingClientRect().top + window.pageYOffset + footer.getBoundingClientRect().height / 2 - window.innerHeight;
                 });
             }, 500);
