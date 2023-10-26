@@ -4,14 +4,13 @@
   left: 0;
   width: 100%;
   z-index: 5;
+  background: #FFB301;
 }
 .header__top {
-  background: #FFB301;
   display: flex;
   justify-content: flex-end;
-  padding: 16px 60px 40px;
-  margin-bottom: -30px;
-  transition: padding 0.25s linear, height 0.25s linear, max-height 0.25s linear, margin 0.25s linear;
+  padding: 16px 60px 10px;
+  transition: padding 0.25s linear, height 0.25s linear, max-height 0.25s linear;
 
   @media ($tablet) {
     padding: 12px 20px 12px;
@@ -22,7 +21,6 @@
     max-height: 0;
     overflow: hidden;
     padding: 0 60px;
-    margin-bottom: 0;
 
     @media ($tablet) {
       padding: 0 20px;
@@ -83,7 +81,7 @@
   transition: border-radius 0.25s, background-color 0.25s;
 
   .header.this--transparent & {
-    background: transparent;
+    background: #ffb301;
     box-shadow: 0 -38px 45px 0 rgba(0, 0, 0, 0.04);
   }
 
