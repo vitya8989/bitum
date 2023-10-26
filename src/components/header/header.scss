@@ -9,8 +9,9 @@
   background: #FFB301;
   display: flex;
   justify-content: flex-end;
-  padding: 16px 60px 10px;
-  transition: padding 0.25s linear, height 0.25s linear, max-height 0.25s linear;
+  padding: 16px 60px 40px;
+  margin-bottom: -30px;
+  transition: padding 0.25s linear, height 0.25s linear, max-height 0.25s linear, margin 0.25s linear;
 
   @media ($tablet) {
     padding: 12px 20px 12px;
@@ -21,6 +22,7 @@
     max-height: 0;
     overflow: hidden;
     padding: 0 60px;
+    margin-bottom: 0;
 
     @media ($tablet) {
       padding: 0 20px;
