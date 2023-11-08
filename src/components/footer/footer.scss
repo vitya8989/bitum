@@ -54,6 +54,10 @@
   @media ($tablet3) {
     gap: 27px;
   }
+
+  img {
+    max-height: 42px;
+  }
 }
 .marquee {
   animation: scroll 20s linear infinite;
