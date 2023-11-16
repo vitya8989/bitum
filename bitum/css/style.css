@@ -3725,7 +3725,8 @@ main {
 
 .contacts_map__content {
   position: relative;
-  height: 816px;
+  height: 700px;
+  pointer-events: none;
 }
 
 .contacts_map__items {

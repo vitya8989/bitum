@@ -230,7 +230,8 @@
 }
 .contacts_map__content {
   position: relative;
-  height: 816px;
+  height: 700px;
+  pointer-events: none;
 
   @media ($desktop) {
     height: 600px;
