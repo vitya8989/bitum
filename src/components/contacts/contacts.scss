@@ -220,6 +220,17 @@
   border-radius: 30px;
   box-shadow: 3px -1px 6px 0px rgba(0, 0, 0, 0.15);
   overflow: hidden;
+  height: 700px;
+
+  @media ($desktop) {
+    height: 600px;
+  }
+  @media ($tablet3) {
+    height: 450px;
+  }
+  .container {
+    height: 100%;
+  }
 }
 .contacts_map__map {
   position: absolute;
@@ -230,15 +241,8 @@
 }
 .contacts_map__content {
   position: relative;
-  height: 700px;
   pointer-events: none;
-
-  @media ($desktop) {
-    height: 600px;
-  }
-  @media ($tablet3) {
-    height: 450px;
-  }
+  height: 100%;
 }
 .contacts_map__items {
   position: absolute;
@@ -252,9 +256,12 @@
 }
 .contacts_map__item {
   margin-top: 45px;
+  pointer-events: auto;
+  display: block;
 
   img {
     width: 100%;
+    pointer-events: auto;
   }
 
   &:first-child {
